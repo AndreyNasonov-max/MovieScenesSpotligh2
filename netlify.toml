@@ -1,0 +1,7 @@
+[build]
+publish = "."
+
+[[redirects]]
+from = "/auth/google"
+to = "https://your-backend-vercel-url.vercel.app/auth/google"
+status = 200
